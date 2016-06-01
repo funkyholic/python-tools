@@ -89,7 +89,7 @@ def doCut(configfile):
 	zmin = zmax-int(span)+1
 
 
-	print("The size of image is: %dpx wide and %dpx height\n"%(img.size[0],img.size[1]))
+	print("The size of image is: %dpx wide and %dpx high\n"%(img.size[0],img.size[1]))
 	print("" + str(img.size[0]/256) + " tiles horizontally")
 	print("" + str(img.size[1]/256) + " tiles vertically")
 	print("minimum spilt: " + str(tileNos) + " tiles at most")
